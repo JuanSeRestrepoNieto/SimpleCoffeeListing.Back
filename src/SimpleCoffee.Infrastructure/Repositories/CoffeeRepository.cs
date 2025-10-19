@@ -40,6 +40,6 @@ public class CoffeeRepository : ICoffeeRepository
         _cachedCoffees = JsonSerializer.Deserialize<List<Coffee>>(jsonContent, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
-        });
+        }) ?? new List<Coffee>();
     }
 }
