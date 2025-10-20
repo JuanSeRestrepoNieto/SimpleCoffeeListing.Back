@@ -163,7 +163,7 @@ dotnet restore
 dotnet build
 dotnet run --project src/SimpleCoffee.Api
 
-https://localhost:5001/swagger
+http://localhost:5184
 dotnet test
 
 Include tests for:
