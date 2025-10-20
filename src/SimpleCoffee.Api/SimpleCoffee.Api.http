@@ -1,0 +1,25 @@
+@SimpleCoffee.Api_HostAddress = http://localhost:5184
+
+# Get all coffees
+GET {{SimpleCoffee.Api_HostAddress}}/api/coffee
+Accept: application/json
+
+###
+
+# Get coffee by ID
+GET {{SimpleCoffee.Api_HostAddress}}/api/coffee/1
+Accept: application/json
+
+###
+
+# Get popular coffees
+GET {{SimpleCoffee.Api_HostAddress}}/api/coffee/popular
+Accept: application/json
+
+###
+
+# Get available coffees
+GET {{SimpleCoffee.Api_HostAddress}}/api/coffee/available
+Accept: application/json
+
+###
