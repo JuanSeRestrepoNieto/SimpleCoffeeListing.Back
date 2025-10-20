@@ -10,7 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Register application services
-builder.Services.AddScoped<ICoffeeRepository, CoffeeRepository>();
+builder.Services.AddSingleton<ICoffeeRepository, CoffeeRepository>();
 builder.Services.AddScoped<ICoffeeService, CoffeeService>();
 
 var app = builder.Build();
