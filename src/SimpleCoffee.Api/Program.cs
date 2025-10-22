@@ -15,7 +15,6 @@ builder.Services.AddScoped<ICoffeeService, CoffeeService>();
 
 var app = builder.Build();
 
-
 app.UseSwagger();
 app.UseSwaggerUI();
 
