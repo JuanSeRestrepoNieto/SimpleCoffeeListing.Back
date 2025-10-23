@@ -1,6 +1,6 @@
 # Tercera entrega de Despliegue de Software
 
-### Video:
+### Video: https://www.youtube.com/watch?v=cJ-R7lGnByU
 
 ### Integrantes
 
