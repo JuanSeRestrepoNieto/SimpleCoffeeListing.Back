@@ -35,7 +35,7 @@ steps:
   inputs:
     command: 'test'
     projects: '$(testProject)'
-    arguments: '--configuration $(buildConfiguration) --no-build --collect:"XPlat Code Coverage" --logger trx --results-directory $(Agent.TempDirectory)/TestResults'
+    arguments: '--configuration $(buildConfiguration) --no-restore --collect:"XPlat Code Coverage" --logger trx'
     publishTestResults: true
 
 - task: PublishCodeCoverageResults@2
